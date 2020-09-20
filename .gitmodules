@@ -1,0 +1,12 @@
+[submodule "themes/pelican-blueidea"]
+	path = themes/pelican-blueidea
+	url = git://github.com/nasskach/pelican-blueidea
+[submodule "plugins/pelican-jupyter-reader"]
+	path = plugins/pelican-jupyter-reader
+	url = git://github.com/chuckpr/pelican-jupyter-reader
+[submodule "plugins/pelican-md-metayaml"]
+	path = plugins/pelican-md-metayaml
+	url = git://github.com/joachimneu/pelican-md-metayaml
+[submodule "output"]
+	path = output
+	url = ./output
