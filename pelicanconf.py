@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 import sys
+import os.path
 
 sys.path.append("plugins/pelican-jupyter-reader/pelican")
 
@@ -42,4 +43,8 @@ PLUGIN_PATHS = ["./plugins/"]
 PLUGINS = [pelican_jupyter_reader, "pelican-md-metayaml"]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]
-IPYNB_EXPORT_TEMPLATE = "templates/base.html.j2"
+from traitlets.config import Config
+
+NBCONVERT_CONFIG = Config()
+NBCONVERT_CONFIG.HTMLExporter.exclude_input_prompt = True
+NBCONVERT_CONFIG.HTMLExporter.exclude_output_prompt = True
