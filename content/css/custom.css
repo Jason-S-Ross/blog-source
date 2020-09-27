@@ -1,0 +1,39 @@
+
+body {
+    background: #f2f3f3;
+    color: #000305;
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.429;
+    /*margin: 0;
+    padding: 0; */
+    text-align: left;
+    background: white !important;
+}
+
+.navbar {
+    min-height: 50px;
+    max-height: 50px;
+    background: whitesmoke;
+    /*margin-bottom: 10px;*/
+}
+
+p {
+    text-align: justify !important;
+}
+
+.page-header {
+    margin-top: 100px;
+}
+
+
+.container {
+    background: whitesmoke !important;
+}
+
+
+/*
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+*/
