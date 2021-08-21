@@ -1,4 +1,3 @@
-
 body {
     background: #f2f3f3;
     color: #000305;
@@ -30,6 +29,9 @@ p {
     background: whitesmoke !important;
 }
 
+td {
+    padding: 5pt;
+}
 
 /*
 .navbar-nav > li > a {

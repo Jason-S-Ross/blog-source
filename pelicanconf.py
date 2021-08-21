@@ -3,6 +3,7 @@
 
 import sys
 import os.path
+from traitlets.config import Config
 
 sys.path.append("plugins/pelican-jupyter-reader/pelican")
 
@@ -38,7 +39,7 @@ DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ["./plugins/", "./plugins/pelican-plugins/"]
 
-PLUGINS = [pelican_jupyter_reader, "pelican-md-metayaml", "i18n_subsites"]
+PLUGINS = [pelican_jupyter_reader, "pelican-md-metayaml", "i18n_subsites", "render_math", "pelican-js"]
 
 THEME = "./themes/pelican-themes/pelican-bootstrap3"
 JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
@@ -52,7 +53,6 @@ MARKUP = ("ipynb",)
 
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]
-from traitlets.config import Config
 
 NBCONVERT_CONFIG = Config()
 NBCONVERT_CONFIG.HTMLExporter.exclude_input_prompt = True
