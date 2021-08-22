@@ -41,7 +41,7 @@ PLUGIN_PATHS = ["./plugins/", "./plugins/pelican-plugins/"]
 
 PLUGINS = [pelican_jupyter_reader, "pelican-md-metayaml", "i18n_subsites", "render_math", "pelican-js"]
 
-THEME = "./themes/pelican-themes/pelican-bootstrap3"
+THEME = "./themes/my-bootstrap3"
 JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 PYGMENTS_STYLE = "tango"
 

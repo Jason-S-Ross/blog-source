@@ -4,12 +4,15 @@
 [submodule "plugins/pelican-md-metayaml"]
 	path = plugins/pelican-md-metayaml
 	url = git://github.com/joachimneu/pelican-md-metayaml
-[submodule "output"]
-	path = output
-	url = ./output
-[submodule "themes/pelican-themes"]
-	path = themes/pelican-themes
-	url = git://github.com/getpelican/pelican-themes.git
 [submodule "plugins/pelican-plugins"]
 	path = plugins/pelican-plugins
 	url = git://github.com/getpelican/pelican-plugins
+[submodule "themes/my-bootstrap3"]
+	path = themes/my-bootstrap3
+	url = git@github.com:Jason-S-Ross/pelican-themes.git
+[submodule "output"]
+	path = output
+	url = git@github.com:Jason-S-Ross/jason-s-ross.github.io.git
+[submodule "plugins/pelican-js"]
+	path = plugins/pelican-js
+	url = https://notabug.org/jorgesumle/pelican-js
